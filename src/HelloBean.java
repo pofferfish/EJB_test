@@ -26,4 +26,8 @@ public class HelloBean implements SessionBean {
     public String hello() {
         return "Hello World!";
     }
+
+    public void ejbCreate(){
+        System.out.println("in ejb create");
+    }
 }

@@ -21,7 +21,7 @@
     <facet type="ejb" name="EJB2">
       <configuration>
         <descriptors>
-          <deploymentDescriptor name="ejb-jar.xml" url="file://$MODULE_DIR$/src/META-INF/ejb-jar.xml" />
+          <deploymentDescriptor name="ejb-jar.xml" url="file://$MODULE_DIR$/src/Hello/META-INF/ejb-jar.xml" />
         </descriptors>
         <ejbRoots>
           <root url="file://$MODULE_DIR$/src" />

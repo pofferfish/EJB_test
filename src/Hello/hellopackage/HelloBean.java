@@ -1,4 +1,4 @@
-package hellopackage;
+package Hello.hellopackage;
 
 import javax.ejb.*;
 

@@ -8,11 +8,11 @@
     <enterprise-beans>
 
         <session>
-            <display-name>hellopackage.HelloBean</display-name>
-            <ejb-name>hellopackage.HelloBean</ejb-name>
-            <home>hellopackage.HomeInterface</home>
-            <remote>hellopackage.ComponentInterface</remote>
-            <ejb-class>hellopackage.HelloBean</ejb-class>
+            <display-name>Hello.hellopackage.HelloBean</display-name>
+            <ejb-name>Hello.hellopackage.HelloBean</ejb-name>
+            <home>Hello.hellopackage.HomeInterface</home>
+            <remote>Hello.hellopackage.ComponentInterface</remote>
+            <ejb-class>Hello.hellopackage.HelloBean</ejb-class>
             <session-type>Stateless</session-type>
             <transaction-type>Bean</transaction-type>
             <security-identity>

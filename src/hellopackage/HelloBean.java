@@ -1,3 +1,5 @@
+package hellopackage;
+
 import javax.ejb.*;
 
 public class HelloBean implements SessionBean {

@@ -7,11 +7,11 @@
     <enterprise-beans>
 
         <session>
-            <display-name>HelloBean</display-name>
-            <ejb-name>HelloBean</ejb-name>
-            <home>src.HomeInterface</home>
-            <remote>src.ComponentInterface</remote>
-            <ejb-class>src.HelloBean</ejb-class>
+            <display-name>hellopackage.HelloBean</display-name>
+            <ejb-name>hellopackage.HelloBean</ejb-name>
+            <home>src.hellopackage.HomeInterface</home>
+            <remote>src.hellopackage.ComponentInterface</remote>
+            <ejb-class>src.hellopackage.HelloBean</ejb-class>
             <session-type>Stateless</session-type>
             <transaction-type>Bean</transaction-type>
             <security-identity>

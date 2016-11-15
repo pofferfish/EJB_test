@@ -1,3 +1,5 @@
+package hellopackage;
+
 import javax.ejb.*;
 import java.rmi.RemoteException;
 

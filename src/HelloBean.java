@@ -22,4 +22,8 @@ public class HelloBean implements SessionBean {
     public void ejbPassivate() {
         System.out.println("ejb passivate");
     }
+
+    public String hello() {
+        return "Hello World!";
+    }
 }
